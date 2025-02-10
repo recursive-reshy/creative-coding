@@ -4,6 +4,6 @@ html, body {
 }
 
 canvas {
-  cursor: none;
+  /* cursor: none; */
   display: block;
 }
