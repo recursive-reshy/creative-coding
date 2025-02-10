@@ -4,5 +4,6 @@ html, body {
 }
 
 canvas {
+  cursor: none;
   display: block;
 }

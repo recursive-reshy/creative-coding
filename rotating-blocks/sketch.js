@@ -1,13 +1,12 @@
 let cols, rows
-let distMouse = 20
+let distMouse = 50
 let size = 10
 let offset = 4
 let blocks = []
 
 
 function setup() {
-  createCanvas( windowWidth, windowHeight )
-  // createCanvas( 400, 400 )
+  createCanvas( 800, windowHeight )
   // set rectangle mode to center
   rectMode(CENTER)
   // set angle mode to center
