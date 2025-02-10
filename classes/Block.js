@@ -28,13 +28,15 @@ class Block {
 			if( dist( mouseX, mouseY, this.x, this.y ) < distMouse ) {
 				this.angle += 1
 				// Turn stroke to white when mouse approaches
-				this.stroke = 255
+				this.stroke = color( 255, 255, 0 )
 			}
 		} 
 
 		// If block has started rotating, continue until it reaches 90 degrees
 		if( this.angle > 0 && this.angle < 90 ) {
 			this.angle += 1
+			if( this.angle > 45 ) 
+				this.stroke = color( 'blue' )
 			// Decrease stroke as block rotates, only if stroke is more than the original color
 			if( this.stroke > 70 )
 				this.stroke -= 3
