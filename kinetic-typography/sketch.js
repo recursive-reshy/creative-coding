@@ -16,7 +16,7 @@ function preload() {
 }
 
 function setup() {
-	// WEBGL is a 3D rendering context
+  // WEBGL is a 3D rendering context
   createCanvas( 600, windowHeight, WEBGL )
 	angleMode( DEGREES )
 
